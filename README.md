@@ -2,7 +2,10 @@
 
 A comprehensive real estate price analysis and prediction dashboard built with Streamlit and machine learning.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://realstatedashboard-sqqfjc8adbm7tps8pfujii.streamlit.app/)
+
+## 🌐 Live Demo
+**🚀 [Try the Live Dashboard](https://realstatedashboard-sqqfjc8adbm7tps8pfujii.streamlit.app/)**
 
 ## Features
 
@@ -63,10 +66,13 @@ docker run -p 8501:8501 real-estate-dashboard
 4. **ML Model**: Machine learning model performance and feature importance
 5. **Price Prediction**: Interactive price prediction tool
 
-## Deployment Options
+## Deployment
 
-### Streamlit Cloud
-1. Push your code to GitHub
+### ✅ Already Deployed on Streamlit Cloud
+This dashboard is live and accessible at: **https://realstatedashboard-sqqfjc8adbm7tps8pfujii.streamlit.app/**
+
+### Deploy Your Own Version
+1. Fork this repository
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repository
 4. Deploy the app
