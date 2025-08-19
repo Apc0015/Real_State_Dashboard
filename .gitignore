@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (uncomment if you don't want to include data)
+# *.csv
+# *.xlsx
+# *.json
+
+# Model files
+*.pkl
+*.joblib
+
+# Logs
+*.log
