@@ -2,6 +2,8 @@
 
 A comprehensive real estate price analysis and prediction dashboard built with Streamlit and machine learning.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app/)
+
 ## Features
 
 - **Data Exploration**: Interactive visualizations of the real estate dataset
@@ -22,7 +24,12 @@ The dashboard uses a real estate dataset with the following features:
 
 ## Installation
 
-1. Clone the repository or download the files
+1. Clone the repository:
+```bash
+git clone https://github.com/Apc0015/Real_State_Dashboard.git
+cd Real_State_Dashboard
+```
+
 2. Install the required dependencies:
 ```bash
 pip install -r requirement.txt
@@ -64,31 +71,9 @@ docker run -p 8501:8501 real-estate-dashboard
 3. Connect your GitHub repository
 4. Deploy the app
 
-### Heroku
-1. Create a `Procfile`:
-```
-web: sh setup.sh && streamlit run app.py
-```
-
-2. Create `setup.sh`:
-```bash
-mkdir -p ~/.streamlit/
-echo "[server]
-headless = true
-port = $PORT
-enableCORS = false
-" > ~/.streamlit/config.toml
-```
-
-### Local Network Access
-To access the dashboard from other devices on your network:
-```bash
-streamlit run app.py --server.address=0.0.0.0
-```
-
 ## Project Structure
 ```
-Real_state_dashboard/
+Real_State_Dashboard/
 ├── app.py                 # Main Streamlit application
 ├── Real_Estate.csv        # Dataset
 ├── requirement.txt        # Python dependencies
@@ -105,13 +90,6 @@ Real_state_dashboard/
 - **Visualization**: Plotly, Matplotlib, Seaborn
 - **Machine Learning**: Scikit-learn (Random Forest)
 - **Deployment**: Docker, Streamlit Cloud
-
-## Model Performance
-
-The dashboard uses a Random Forest Regressor with the following performance metrics:
-- Feature engineering for better predictions
-- Cross-validation for model reliability
-- Interactive prediction interface
 
 ## Contributing
 
